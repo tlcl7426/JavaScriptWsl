@@ -6,7 +6,7 @@ git stash 可以临时save到暂存区通过git stash pop继续命令 也可以�
 git config --global --unset http.proxy
 ```
 
-**如果出现fatal ref错误**
+**如果出现fatal ref错误error: failed to push some refs to**
 ```
 git pull --rebase origin master  git push origin master
 
@@ -23,5 +23,7 @@ git checkout -b    create branch
 git checkout -d     delete branch
 
 git push origin master xx     和服务器建立联系
+
+
 
 ```
