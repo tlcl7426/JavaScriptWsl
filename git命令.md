@@ -27,3 +27,9 @@ git push origin master xx     和服务器建立联系
 
 
 ```
+```
+# 清空 resporitity
+git pull --rebase
+git rm -r *
+git commit -a
+git push
